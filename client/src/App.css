@@ -1,0 +1,321 @@
+.body{
+  text-align: center;
+  font-family: 'Belanosima', sans-serif;
+
+}
+
+.demo{
+  color:blue;
+}
+
+.logo{
+  width: 50%;
+}
+
+.signup-pic{
+  
+}
+
+.phone-img{
+  width: 50px;
+}
+
+.email-img{
+  width: 50px;
+}
+
+.address-img{
+  width:50px;
+}
+
+.profile-pic{
+  width: 50%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  height: 5000px;
+}
+
+.floated {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+h1, p {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.writing{
+  /* text-align: center;
+  width: 25rem; */
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.tweets{
+  /* width: 18rem;
+  text-align: center; */
+
+  margin:auto;
+  margin-top: 2%;
+  width: auto;
+  padding: auto;
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.GridContainer {
+  display: inline-block;
+  grid-template-columns: repeat(3, 1fr); /* Create a grid with 3 columns */
+  grid-gap: 10px; /* Add a gap of 10 pixels between grid items */
+  
+}
+
+.GridItem {
+  background-color: #f0eeee;
+  padding: 20px;
+}
+
+.home-page{
+  text-align: center;
+}
+
+.formData{
+  text-align: center;
+}
+
+.data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.textHere{
+  width: 20rem;
+}
+
+.contact_form_name{
+  margin-left: 10%;
+}
+
+.def{
+  font-family: 'Belanosima', sans-serif;
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.postSty{
+  font-family: 'Pacifico', cursive;
+}
+
+.outer{
+  padding: 2%;
+  text-align: center;
+}
+
+.out{
+  text-align: center;
+}
+
+.inside{
+  background-color: rgb(207, 207, 207);
+}
+
+.title{
+  background: -webkit-linear-gradient(#eee, #2d463c);
+  font-family: 'Ysabeau SC', sans-serif;
+  font-size: 2rem;
+  color:beige;
+}
+
+.myName{
+  font-family: 'Belanosima', sans-serif;
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(#eee, #5b5dc0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.Bio{
+  font-family: 'Belanosima', sans-serif;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#eee, #da6143);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.aboutTop{
+  padding: 10%;
+  font-family: 'Belanosima', sans-serif;
+
+}
+
+.contact_button{
+  text-align: center;
+}
+
+.contactPage{
+  font-family: 'Belanosima', sans-serif;
+  text-align: center;
+  padding: 1%;
+}
+
+.contactPage2{
+  font-family: 'Belanosima', sans-serif;
+
+  text-align: center;
+
+}
+
+.input_field{
+  margin: 2%;
+  text-align: center;
+  width: 2%;
+}
+
+.inpo{
+  display: inline-block;
+  width: 40%;
+  margin: 1%;
+}
+
+.form-title{
+  background: -webkit-linear-gradient(#554e4e, #469fdb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.outLog{
+  font-family: 'Belanosima', sans-serif;
+}
+
+@media (max-width: 991px) {
+  body {
+      background: rgb(233, 233, 229);
+  }
+
+  .outer{
+    padding-left: 10%;
+    text-align: center;
+  }
+
+  .profile-work{
+    text-align: center;
+  }
+
+  .fr{
+    margin-top: 10%;
+    margin-left: -15%;
+  }
+  
+  .bk{
+    margin-left: 20%;
+    margin-top: -12%;
+  }
+
+  .fr1{
+    margin-left: -15%;
+  }
+  
+  .bk1{
+    margin-left: 20%;
+    margin-top: -12%;
+  }
+
+  .fr2{
+    margin-left: -15%;
+  }
+  
+  .bk2{
+    margin-left: 20%;
+    margin-top: -12%;
+  }
+
+  .fr3{
+    margin-left: -15%;
+  }
+  
+  .bk3{
+    margin-left: 20%;
+    margin-top: -12%;
+  }
+
+  .fr4{
+    margin-left: -15%;
+  }
+  
+  .bk4{
+    margin-left: 20%;
+    margin-top: -12%;
+  }
+
+  .fr5{
+    margin-left: -15%;
+  }
+  
+  .bk5{
+    margin-left: 20%;
+    margin-top: -12%;
+  }
+
+  .input_field{
+    width: 100%;
+  }
+
+  .contact_form_text{
+    width: 70%;
+  }
+
+  .contact_form_name{
+    margin-left: 0;
+  }
+
+  .fak{
+    padding-top: 5%;
+  }
+
+  .log{
+    padding-top: 22%;
+    
+  }
+  
+  .signin-image{
+    width:45%;
+  }
+
+  .signin-pic{
+    width: 100%;
+  }
+
+  .signin-form{
+    width:50%;
+  }
+  
+  .inpo{
+    width: 85%;
+    margin: 2%;
+  }
+
+  .signup-pic{
+    padding-top: 50%;
+    width: 100%;
+  }
+
+  .logoUp{
+    margin-left: 30%;
+  }
+
+}
